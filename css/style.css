@@ -1,3 +1,7 @@
+body{
+    color: white;
+}
+
 .patreon {
         /*Replace image link*/
           background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/patreon.png");
@@ -10,10 +14,36 @@
           position: relative;
           background-position: center;
       }
-      h1{
+      .artjournal {
+        /*Replace image link*/
+        background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/vine.png");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size:cover;
+      /*image is fixed in background all other elements are scrolling*/  
+      /*background attachement makes image fixed*/
+        background-attachment: fixed;
+        position: relative;
+        background-position: center;
+      }
+      .bible {
+        /*Replace image link*/
+        background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/Bible.png");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size:cover;
+      /*image is fixed in background all other elements are scrolling*/  
+      /*background attachement makes image fixed*/
+        background-attachment: fixed;
+        position: relative;
+        background-position: center;
+      }
+      
+      
+      a{
         color:white;
       }
-      h1:hover { 
+      a:hover { 
         color: red; 
     } 
     a {
