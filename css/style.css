@@ -49,3 +49,14 @@ body{
     a {
         text-decoration: none;
     }
+    .tiger{
+      background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/WhiteTiger.png");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size:cover;
+      /*image is fixed in background all other elements are scrolling*/  
+      /*background attachement makes image fixed*/
+        background-attachment: fixed;
+        position: relative;
+        background-position: center;
+    }
