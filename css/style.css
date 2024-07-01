@@ -29,7 +29,7 @@ body{
       .bible {
         /*Replace image link*/
         background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/Bible.png");
-        height: 1000px;
+        height: 500px;
         background-repeat: no-repeat;
         background-size:cover;
       /*image is fixed in background all other elements are scrolling*/  
@@ -39,7 +39,32 @@ body{
         background-position: center;
       }
       
+      .bible1{
+         /*Replace image link*/
+         background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/Bible.png");
+         height: 200px;
+         background-repeat: no-repeat;
+         background-size:cover;
+       /*image is fixed in background all other elements are scrolling*/  
+       /*background attachement makes image fixed*/
+         background-attachment: fixed;
+         position: relative;
+         background-position: center;
+       }
       
+       .bible2{
+          /*Replace image link*/
+          background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/Bible.png");
+          height: 1000px;
+          background-repeat: no-repeat;
+          background-size:cover;
+        /*image is fixed in background all other elements are scrolling*/  
+        /*background attachement makes image fixed*/
+          background-attachment: fixed;
+          position: relative;
+          background-position: center;
+       }
+
       a{
         color:white;
       }
